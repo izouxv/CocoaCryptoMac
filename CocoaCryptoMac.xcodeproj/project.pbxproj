@@ -26,35 +26,41 @@
 		42636AF71DD15E8000DA1F50 /* CCMCryptorTests2.m in Sources */ = {isa = PBXBuildFile; fileRef = 42636AF51DD15E7A00DA1F50 /* CCMCryptorTests2.m */; };
 		42636B011DD1652A00DA1F50 /* private.pem in Resources */ = {isa = PBXBuildFile; fileRef = 42636AFF1DD164FB00DA1F50 /* private.pem */; };
 		42636B021DD1652A00DA1F50 /* public.pem in Resources */ = {isa = PBXBuildFile; fileRef = 42636B001DD164FB00DA1F50 /* public.pem */; };
-		42636B111DD166DB00DA1F50 /* CocoaCryptoMacFmwk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42636B081DD166DB00DA1F50 /* CocoaCryptoMacFmwk.framework */; };
-		42636B161DD166DB00DA1F50 /* CocoaCryptoMacFmwkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42636B151DD166DB00DA1F50 /* CocoaCryptoMacFmwkTests.m */; };
-		42636B181DD166DB00DA1F50 /* CocoaCryptoMacFmwk.h in Headers */ = {isa = PBXBuildFile; fileRef = 42636B0A1DD166DB00DA1F50 /* CocoaCryptoMacFmwk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42636B1F1DD166E400DA1F50 /* CCMPublicKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F50E41B92A52F00B0CA61 /* CCMPublicKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42636B201DD166E400DA1F50 /* CCMPublicKey_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F50E71B92A53F00B0CA61 /* CCMPublicKey_internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42636B211DD166E400DA1F50 /* CCMPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F50E51B92A52F00B0CA61 /* CCMPublicKey.m */; };
-		42636B221DD166E400DA1F50 /* CCMPrivateKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F51131B92DFA000B0CA61 /* CCMPrivateKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42636B231DD166E400DA1F50 /* CCMPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F51141B92DFA000B0CA61 /* CCMPrivateKey.m */; };
-		42636B241DD166E400DA1F50 /* CCMPrivateKey_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F51171B92DFBC00B0CA61 /* CCMPrivateKey_internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42636B251DD166E400DA1F50 /* CCMKeyLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F50E81B92A54E00B0CA61 /* CCMKeyLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42636B261DD166E400DA1F50 /* CCMKeyLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F50E91B92A54E00B0CA61 /* CCMKeyLoader.m */; };
-		42636B271DD166E400DA1F50 /* CCMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F50EB1B92A68000B0CA61 /* CCMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42636B281DD166E400DA1F50 /* CCMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F50EC1B92A68000B0CA61 /* CCMBase64.m */; };
-		42636B291DD166E400DA1F50 /* CCMCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F510D1B92C3BE00B0CA61 /* CCMCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42636B2A1DD166E400DA1F50 /* CCMCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F510E1B92C3BE00B0CA61 /* CCMCryptor.m */; };
-		42636B2B1DD166E400DA1F50 /* CSSMRSACryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F51091B92B88000B0CA61 /* CSSMRSACryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42636B2C1DD166E400DA1F50 /* CSSMRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F510A1B92B88000B0CA61 /* CSSMRSACryptor.m */; };
-		42636B2D1DD166F400DA1F50 /* CCMCryptorTests2.m in Sources */ = {isa = PBXBuildFile; fileRef = 42636AF51DD15E7A00DA1F50 /* CCMCryptorTests2.m */; };
-		42636B2E1DD166F400DA1F50 /* CCMKeyLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F50FD1B92AC0100B0CA61 /* CCMKeyLoaderTests.m */; };
-		42636B2F1DD166F400DA1F50 /* CCMCryptorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F51111B92C3D500B0CA61 /* CCMCryptorTests.m */; };
+		42636BCD1DD16BA600DA1F50 /* CocoaCryptoMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42636BC41DD16BA600DA1F50 /* CocoaCryptoMac.framework */; };
+		42636BD21DD16BA600DA1F50 /* CocoaCryptoMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42636BD11DD16BA600DA1F50 /* CocoaCryptoMacTests.m */; };
+		42636BD41DD16BA600DA1F50 /* CocoaCryptoMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 42636BC61DD16BA600DA1F50 /* CocoaCryptoMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42636BDB1DD16BB500DA1F50 /* CCMPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F50E51B92A52F00B0CA61 /* CCMPublicKey.m */; };
+		42636BDC1DD16BB500DA1F50 /* CCMPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F51141B92DFA000B0CA61 /* CCMPrivateKey.m */; };
+		42636BDD1DD16BB500DA1F50 /* CCMKeyLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F50E91B92A54E00B0CA61 /* CCMKeyLoader.m */; };
+		42636BDE1DD16BB500DA1F50 /* CCMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F50EC1B92A68000B0CA61 /* CCMBase64.m */; };
+		42636BDF1DD16BB500DA1F50 /* CCMCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F510E1B92C3BE00B0CA61 /* CCMCryptor.m */; };
+		42636BE01DD16BB500DA1F50 /* CSSMRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F510A1B92B88000B0CA61 /* CSSMRSACryptor.m */; };
+		42636BE11DD16BB600DA1F50 /* CCMPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F50E51B92A52F00B0CA61 /* CCMPublicKey.m */; };
+		42636BE21DD16BB600DA1F50 /* CCMPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F51141B92DFA000B0CA61 /* CCMPrivateKey.m */; };
+		42636BE31DD16BB600DA1F50 /* CCMKeyLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F50E91B92A54E00B0CA61 /* CCMKeyLoader.m */; };
+		42636BE41DD16BB600DA1F50 /* CCMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F50EC1B92A68000B0CA61 /* CCMBase64.m */; };
+		42636BE51DD16BB600DA1F50 /* CCMCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F510E1B92C3BE00B0CA61 /* CCMCryptor.m */; };
+		42636BE61DD16BB600DA1F50 /* CSSMRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F510A1B92B88000B0CA61 /* CSSMRSACryptor.m */; };
+		42636BE71DD16BDE00DA1F50 /* CCMPublicKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F50E41B92A52F00B0CA61 /* CCMPublicKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42636BE81DD16BE400DA1F50 /* CCMPublicKey_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F50E71B92A53F00B0CA61 /* CCMPublicKey_internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42636BE91DD16BE400DA1F50 /* CCMPrivateKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F51131B92DFA000B0CA61 /* CCMPrivateKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42636BEA1DD16BE400DA1F50 /* CCMPrivateKey_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F51171B92DFBC00B0CA61 /* CCMPrivateKey_internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42636BEB1DD16BE400DA1F50 /* CCMKeyLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F50E81B92A54E00B0CA61 /* CCMKeyLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42636BEC1DD16BE400DA1F50 /* CCMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F50EB1B92A68000B0CA61 /* CCMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42636BED1DD16BE400DA1F50 /* CCMCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F510D1B92C3BE00B0CA61 /* CCMCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42636BEE1DD16BE400DA1F50 /* CSSMRSACryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 249F51091B92B88000B0CA61 /* CSSMRSACryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42636BEF1DD16BF400DA1F50 /* CCMCryptorTests2.m in Sources */ = {isa = PBXBuildFile; fileRef = 42636AF51DD15E7A00DA1F50 /* CCMCryptorTests2.m */; };
+		42636BF01DD16BF400DA1F50 /* CCMKeyLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F50FD1B92AC0100B0CA61 /* CCMKeyLoaderTests.m */; };
+		42636BF11DD16BF400DA1F50 /* CCMCryptorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F51111B92C3D500B0CA61 /* CCMCryptorTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		42636B121DD166DB00DA1F50 /* PBXContainerItemProxy */ = {
+		42636BCE1DD16BA600DA1F50 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 249F50D21B928E1100B0CA61 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 42636B071DD166DB00DA1F50;
-			remoteInfo = CocoaCryptoMacFmwk;
+			remoteGlobalIDString = 42636BC31DD16BA600DA1F50;
+			remoteInfo = CocoaCryptoMac;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -71,7 +77,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		249F50DA1B928E1100B0CA61 /* CocoaCryptoMac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CocoaCryptoMac; sourceTree = BUILT_PRODUCTS_DIR; };
+		249F50DA1B928E1100B0CA61 /* CocoaCryptoMacApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CocoaCryptoMacApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		249F50DD1B928E1100B0CA61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		249F50E41B92A52F00B0CA61 /* CCMPublicKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMPublicKey.h; sourceTree = "<group>"; };
 		249F50E51B92A52F00B0CA61 /* CCMPublicKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMPublicKey.m; sourceTree = "<group>"; };
@@ -97,12 +103,12 @@
 		42636AF51DD15E7A00DA1F50 /* CCMCryptorTests2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMCryptorTests2.m; sourceTree = "<group>"; };
 		42636AFF1DD164FB00DA1F50 /* private.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private.pem; sourceTree = "<group>"; };
 		42636B001DD164FB00DA1F50 /* public.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = public.pem; sourceTree = "<group>"; };
-		42636B081DD166DB00DA1F50 /* CocoaCryptoMacFmwk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaCryptoMacFmwk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		42636B0A1DD166DB00DA1F50 /* CocoaCryptoMacFmwk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaCryptoMacFmwk.h; sourceTree = "<group>"; };
-		42636B0B1DD166DB00DA1F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42636B101DD166DB00DA1F50 /* CocoaCryptoMacFmwkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaCryptoMacFmwkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42636B151DD166DB00DA1F50 /* CocoaCryptoMacFmwkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaCryptoMacFmwkTests.m; sourceTree = "<group>"; };
-		42636B171DD166DB00DA1F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42636BC41DD16BA600DA1F50 /* CocoaCryptoMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaCryptoMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42636BC61DD16BA600DA1F50 /* CocoaCryptoMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaCryptoMac.h; sourceTree = "<group>"; };
+		42636BC71DD16BA600DA1F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42636BCC1DD16BA600DA1F50 /* CocoaCryptoMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaCryptoMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42636BD11DD16BA600DA1F50 /* CocoaCryptoMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaCryptoMacTests.m; sourceTree = "<group>"; };
+		42636BD31DD16BA600DA1F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,18 +126,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42636B041DD166DB00DA1F50 /* Frameworks */ = {
+		42636BC01DD16BA600DA1F50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42636B0D1DD166DB00DA1F50 /* Frameworks */ = {
+		42636BC91DD16BA600DA1F50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42636B111DD166DB00DA1F50 /* CocoaCryptoMacFmwk.framework in Frameworks */,
+				42636BCD1DD16BA600DA1F50 /* CocoaCryptoMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +150,8 @@
 				249F50DD1B928E1100B0CA61 /* main.m */,
 				249F50EE1B92AB7500B0CA61 /* test */,
 				249F50DC1B928E1100B0CA61 /* CocoaCryptoMac */,
-				42636B091DD166DB00DA1F50 /* CocoaCryptoMacFmwk */,
-				42636B141DD166DB00DA1F50 /* CocoaCryptoMacFmwkTests */,
+				42636BC51DD16BA600DA1F50 /* CocoaCryptoMac */,
+				42636BD01DD16BA600DA1F50 /* CocoaCryptoMacTests */,
 				249F50DB1B928E1100B0CA61 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -153,10 +159,10 @@
 		249F50DB1B928E1100B0CA61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				249F50DA1B928E1100B0CA61 /* CocoaCryptoMac */,
+				249F50DA1B928E1100B0CA61 /* CocoaCryptoMacApp */,
 				249F50F31B92AB8D00B0CA61 /* Tests.xctest */,
-				42636B081DD166DB00DA1F50 /* CocoaCryptoMacFmwk.framework */,
-				42636B101DD166DB00DA1F50 /* CocoaCryptoMacFmwkTests.xctest */,
+				42636BC41DD16BA600DA1F50 /* CocoaCryptoMac.framework */,
+				42636BCC1DD16BA600DA1F50 /* CocoaCryptoMacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,49 +212,49 @@
 			path = resources;
 			sourceTree = "<group>";
 		};
-		42636B091DD166DB00DA1F50 /* CocoaCryptoMacFmwk */ = {
+		42636BC51DD16BA600DA1F50 /* CocoaCryptoMac */ = {
 			isa = PBXGroup;
 			children = (
-				42636B0A1DD166DB00DA1F50 /* CocoaCryptoMacFmwk.h */,
-				42636B0B1DD166DB00DA1F50 /* Info.plist */,
+				42636BC61DD16BA600DA1F50 /* CocoaCryptoMac.h */,
+				42636BC71DD16BA600DA1F50 /* Info.plist */,
 			);
-			path = CocoaCryptoMacFmwk;
+			path = CocoaCryptoMac;
 			sourceTree = "<group>";
 		};
-		42636B141DD166DB00DA1F50 /* CocoaCryptoMacFmwkTests */ = {
+		42636BD01DD16BA600DA1F50 /* CocoaCryptoMacTests */ = {
 			isa = PBXGroup;
 			children = (
-				42636B151DD166DB00DA1F50 /* CocoaCryptoMacFmwkTests.m */,
-				42636B171DD166DB00DA1F50 /* Info.plist */,
+				42636BD11DD16BA600DA1F50 /* CocoaCryptoMacTests.m */,
+				42636BD31DD16BA600DA1F50 /* Info.plist */,
 			);
-			path = CocoaCryptoMacFmwkTests;
+			path = CocoaCryptoMacTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		42636B051DD166DB00DA1F50 /* Headers */ = {
+		42636BC11DD16BA600DA1F50 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42636B291DD166E400DA1F50 /* CCMCryptor.h in Headers */,
-				42636B221DD166E400DA1F50 /* CCMPrivateKey.h in Headers */,
-				42636B201DD166E400DA1F50 /* CCMPublicKey_internal.h in Headers */,
-				42636B2B1DD166E400DA1F50 /* CSSMRSACryptor.h in Headers */,
-				42636B241DD166E400DA1F50 /* CCMPrivateKey_internal.h in Headers */,
-				42636B251DD166E400DA1F50 /* CCMKeyLoader.h in Headers */,
-				42636B181DD166DB00DA1F50 /* CocoaCryptoMacFmwk.h in Headers */,
-				42636B1F1DD166E400DA1F50 /* CCMPublicKey.h in Headers */,
-				42636B271DD166E400DA1F50 /* CCMBase64.h in Headers */,
+				42636BED1DD16BE400DA1F50 /* CCMCryptor.h in Headers */,
+				42636BE91DD16BE400DA1F50 /* CCMPrivateKey.h in Headers */,
+				42636BE81DD16BE400DA1F50 /* CCMPublicKey_internal.h in Headers */,
+				42636BEE1DD16BE400DA1F50 /* CSSMRSACryptor.h in Headers */,
+				42636BEA1DD16BE400DA1F50 /* CCMPrivateKey_internal.h in Headers */,
+				42636BEB1DD16BE400DA1F50 /* CCMKeyLoader.h in Headers */,
+				42636BD41DD16BA600DA1F50 /* CocoaCryptoMac.h in Headers */,
+				42636BE71DD16BDE00DA1F50 /* CCMPublicKey.h in Headers */,
+				42636BEC1DD16BE400DA1F50 /* CCMBase64.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		249F50D91B928E1100B0CA61 /* CocoaCryptoMac */ = {
+		249F50D91B928E1100B0CA61 /* CocoaCryptoMacApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 249F50E11B928E1100B0CA61 /* Build configuration list for PBXNativeTarget "CocoaCryptoMac" */;
+			buildConfigurationList = 249F50E11B928E1100B0CA61 /* Build configuration list for PBXNativeTarget "CocoaCryptoMacApp" */;
 			buildPhases = (
 				249F50D61B928E1100B0CA61 /* Sources */,
 				249F50D71B928E1100B0CA61 /* Frameworks */,
@@ -258,9 +264,9 @@
 			);
 			dependencies = (
 			);
-			name = CocoaCryptoMac;
+			name = CocoaCryptoMacApp;
 			productName = CocoaCryptoMac;
-			productReference = 249F50DA1B928E1100B0CA61 /* CocoaCryptoMac */;
+			productReference = 249F50DA1B928E1100B0CA61 /* CocoaCryptoMacApp */;
 			productType = "com.apple.product-type.tool";
 		};
 		249F50F21B92AB8D00B0CA61 /* Tests */ = {
@@ -280,40 +286,40 @@
 			productReference = 249F50F31B92AB8D00B0CA61 /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		42636B071DD166DB00DA1F50 /* CocoaCryptoMacFmwk */ = {
+		42636BC31DD16BA600DA1F50 /* CocoaCryptoMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42636B1D1DD166DB00DA1F50 /* Build configuration list for PBXNativeTarget "CocoaCryptoMacFmwk" */;
+			buildConfigurationList = 42636BD51DD16BA600DA1F50 /* Build configuration list for PBXNativeTarget "CocoaCryptoMac" */;
 			buildPhases = (
-				42636B031DD166DB00DA1F50 /* Sources */,
-				42636B041DD166DB00DA1F50 /* Frameworks */,
-				42636B051DD166DB00DA1F50 /* Headers */,
-				42636B061DD166DB00DA1F50 /* Resources */,
+				42636BBF1DD16BA600DA1F50 /* Sources */,
+				42636BC01DD16BA600DA1F50 /* Frameworks */,
+				42636BC11DD16BA600DA1F50 /* Headers */,
+				42636BC21DD16BA600DA1F50 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CocoaCryptoMacFmwk;
-			productName = CocoaCryptoMacFmwk;
-			productReference = 42636B081DD166DB00DA1F50 /* CocoaCryptoMacFmwk.framework */;
+			name = CocoaCryptoMac;
+			productName = CocoaCryptoMac;
+			productReference = 42636BC41DD16BA600DA1F50 /* CocoaCryptoMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		42636B0F1DD166DB00DA1F50 /* CocoaCryptoMacFmwkTests */ = {
+		42636BCB1DD16BA600DA1F50 /* CocoaCryptoMacTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42636B1E1DD166DB00DA1F50 /* Build configuration list for PBXNativeTarget "CocoaCryptoMacFmwkTests" */;
+			buildConfigurationList = 42636BD81DD16BA600DA1F50 /* Build configuration list for PBXNativeTarget "CocoaCryptoMacTests" */;
 			buildPhases = (
-				42636B0C1DD166DB00DA1F50 /* Sources */,
-				42636B0D1DD166DB00DA1F50 /* Frameworks */,
-				42636B0E1DD166DB00DA1F50 /* Resources */,
+				42636BC81DD16BA600DA1F50 /* Sources */,
+				42636BC91DD16BA600DA1F50 /* Frameworks */,
+				42636BCA1DD16BA600DA1F50 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				42636B131DD166DB00DA1F50 /* PBXTargetDependency */,
+				42636BCF1DD16BA600DA1F50 /* PBXTargetDependency */,
 			);
-			name = CocoaCryptoMacFmwkTests;
-			productName = CocoaCryptoMacFmwkTests;
-			productReference = 42636B101DD166DB00DA1F50 /* CocoaCryptoMacFmwkTests.xctest */;
+			name = CocoaCryptoMacTests;
+			productName = CocoaCryptoMacTests;
+			productReference = 42636BCC1DD16BA600DA1F50 /* CocoaCryptoMacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -331,11 +337,11 @@
 					249F50F21B92AB8D00B0CA61 = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					42636B071DD166DB00DA1F50 = {
+					42636BC31DD16BA600DA1F50 = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
-					42636B0F1DD166DB00DA1F50 = {
+					42636BCB1DD16BA600DA1F50 = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -353,10 +359,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				249F50D91B928E1100B0CA61 /* CocoaCryptoMac */,
+				249F50D91B928E1100B0CA61 /* CocoaCryptoMacApp */,
 				249F50F21B92AB8D00B0CA61 /* Tests */,
-				42636B071DD166DB00DA1F50 /* CocoaCryptoMacFmwk */,
-				42636B0F1DD166DB00DA1F50 /* CocoaCryptoMacFmwkTests */,
+				42636BC31DD16BA600DA1F50 /* CocoaCryptoMac */,
+				42636BCB1DD16BA600DA1F50 /* CocoaCryptoMacTests */,
 			);
 		};
 /* End PBXProject section */
@@ -374,14 +380,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42636B061DD166DB00DA1F50 /* Resources */ = {
+		42636BC21DD16BA600DA1F50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42636B0E1DD166DB00DA1F50 /* Resources */ = {
+		42636BCA1DD16BA600DA1F50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -419,37 +425,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42636B031DD166DB00DA1F50 /* Sources */ = {
+		42636BBF1DD16BA600DA1F50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42636B211DD166E400DA1F50 /* CCMPublicKey.m in Sources */,
-				42636B261DD166E400DA1F50 /* CCMKeyLoader.m in Sources */,
-				42636B281DD166E400DA1F50 /* CCMBase64.m in Sources */,
-				42636B2A1DD166E400DA1F50 /* CCMCryptor.m in Sources */,
-				42636B2C1DD166E400DA1F50 /* CSSMRSACryptor.m in Sources */,
-				42636B231DD166E400DA1F50 /* CCMPrivateKey.m in Sources */,
+				42636BDB1DD16BB500DA1F50 /* CCMPublicKey.m in Sources */,
+				42636BDD1DD16BB500DA1F50 /* CCMKeyLoader.m in Sources */,
+				42636BDE1DD16BB500DA1F50 /* CCMBase64.m in Sources */,
+				42636BDF1DD16BB500DA1F50 /* CCMCryptor.m in Sources */,
+				42636BE01DD16BB500DA1F50 /* CSSMRSACryptor.m in Sources */,
+				42636BDC1DD16BB500DA1F50 /* CCMPrivateKey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42636B0C1DD166DB00DA1F50 /* Sources */ = {
+		42636BC81DD16BA600DA1F50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42636B2D1DD166F400DA1F50 /* CCMCryptorTests2.m in Sources */,
-				42636B2F1DD166F400DA1F50 /* CCMCryptorTests.m in Sources */,
-				42636B161DD166DB00DA1F50 /* CocoaCryptoMacFmwkTests.m in Sources */,
-				42636B2E1DD166F400DA1F50 /* CCMKeyLoaderTests.m in Sources */,
+				42636BEF1DD16BF400DA1F50 /* CCMCryptorTests2.m in Sources */,
+				42636BE61DD16BB600DA1F50 /* CSSMRSACryptor.m in Sources */,
+				42636BE31DD16BB600DA1F50 /* CCMKeyLoader.m in Sources */,
+				42636BE11DD16BB600DA1F50 /* CCMPublicKey.m in Sources */,
+				42636BE41DD16BB600DA1F50 /* CCMBase64.m in Sources */,
+				42636BF11DD16BF400DA1F50 /* CCMCryptorTests.m in Sources */,
+				42636BF01DD16BF400DA1F50 /* CCMKeyLoaderTests.m in Sources */,
+				42636BE21DD16BB600DA1F50 /* CCMPrivateKey.m in Sources */,
+				42636BD21DD16BA600DA1F50 /* CocoaCryptoMacTests.m in Sources */,
+				42636BE51DD16BB600DA1F50 /* CCMCryptor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		42636B131DD166DB00DA1F50 /* PBXTargetDependency */ = {
+		42636BCF1DD16BA600DA1F50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 42636B071DD166DB00DA1F50 /* CocoaCryptoMacFmwk */;
-			targetProxy = 42636B121DD166DB00DA1F50 /* PBXContainerItemProxy */;
+			target = 42636BC31DD16BA600DA1F50 /* CocoaCryptoMac */;
+			targetProxy = 42636BCE1DD16BA600DA1F50 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -577,7 +589,7 @@
 			};
 			name = Release;
 		};
-		42636B191DD166DB00DA1F50 /* Debug */ = {
+		42636BD61DD16BA600DA1F50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -593,11 +605,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = CocoaCryptoMacFmwk/Info.plist;
+				INFOPLIST_FILE = CocoaCryptoMac/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = test.CocoaCryptoMacFmwk;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CocoaCryptoMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -605,7 +617,7 @@
 			};
 			name = Debug;
 		};
-		42636B1A1DD166DB00DA1F50 /* Release */ = {
+		42636BD71DD16BA600DA1F50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -620,11 +632,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = CocoaCryptoMacFmwk/Info.plist;
+				INFOPLIST_FILE = CocoaCryptoMac/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = test.CocoaCryptoMacFmwk;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CocoaCryptoMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -632,7 +644,7 @@
 			};
 			name = Release;
 		};
-		42636B1B1DD166DB00DA1F50 /* Debug */ = {
+		42636BD91DD16BA600DA1F50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -642,15 +654,15 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = CocoaCryptoMacFmwkTests/Info.plist;
+				INFOPLIST_FILE = CocoaCryptoMacTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = test.CocoaCryptoMacFmwkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CocoaCryptoMacTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		42636B1C1DD166DB00DA1F50 /* Release */ = {
+		42636BDA1DD16BA600DA1F50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -659,10 +671,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = CocoaCryptoMacFmwkTests/Info.plist;
+				INFOPLIST_FILE = CocoaCryptoMacTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = test.CocoaCryptoMacFmwkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CocoaCryptoMacTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -679,7 +691,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		249F50E11B928E1100B0CA61 /* Build configuration list for PBXNativeTarget "CocoaCryptoMac" */ = {
+		249F50E11B928E1100B0CA61 /* Build configuration list for PBXNativeTarget "CocoaCryptoMacApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				249F50E21B928E1100B0CA61 /* Debug */,
@@ -697,19 +709,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42636B1D1DD166DB00DA1F50 /* Build configuration list for PBXNativeTarget "CocoaCryptoMacFmwk" */ = {
+		42636BD51DD16BA600DA1F50 /* Build configuration list for PBXNativeTarget "CocoaCryptoMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42636B191DD166DB00DA1F50 /* Debug */,
-				42636B1A1DD166DB00DA1F50 /* Release */,
+				42636BD61DD16BA600DA1F50 /* Debug */,
+				42636BD71DD16BA600DA1F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		42636B1E1DD166DB00DA1F50 /* Build configuration list for PBXNativeTarget "CocoaCryptoMacFmwkTests" */ = {
+		42636BD81DD16BA600DA1F50 /* Build configuration list for PBXNativeTarget "CocoaCryptoMacTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42636B1B1DD166DB00DA1F50 /* Debug */,
-				42636B1C1DD166DB00DA1F50 /* Release */,
+				42636BD91DD16BA600DA1F50 /* Debug */,
+				42636BDA1DD16BA600DA1F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

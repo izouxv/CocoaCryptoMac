@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42636B071DD166DB00DA1F50"
-               BuildableName = "CocoaCryptoMacFmwk.framework"
-               BlueprintName = "CocoaCryptoMacFmwk"
+               BlueprintIdentifier = "42636BC31DD16BA600DA1F50"
+               BuildableName = "CocoaCryptoMac.framework"
+               BlueprintName = "CocoaCryptoMac"
                ReferencedContainer = "container:CocoaCryptoMac.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42636B0F1DD166DB00DA1F50"
-               BuildableName = "CocoaCryptoMacFmwkTests.xctest"
-               BlueprintName = "CocoaCryptoMacFmwkTests"
+               BlueprintIdentifier = "42636BCB1DD16BA600DA1F50"
+               BuildableName = "CocoaCryptoMacTests.xctest"
+               BlueprintName = "CocoaCryptoMacTests"
                ReferencedContainer = "container:CocoaCryptoMac.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42636B071DD166DB00DA1F50"
-            BuildableName = "CocoaCryptoMacFmwk.framework"
-            BlueprintName = "CocoaCryptoMacFmwk"
+            BlueprintIdentifier = "42636BC31DD16BA600DA1F50"
+            BuildableName = "CocoaCryptoMac.framework"
+            BlueprintName = "CocoaCryptoMac"
             ReferencedContainer = "container:CocoaCryptoMac.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42636B071DD166DB00DA1F50"
-            BuildableName = "CocoaCryptoMacFmwk.framework"
-            BlueprintName = "CocoaCryptoMacFmwk"
+            BlueprintIdentifier = "42636BC31DD16BA600DA1F50"
+            BuildableName = "CocoaCryptoMac.framework"
+            BlueprintName = "CocoaCryptoMac"
             ReferencedContainer = "container:CocoaCryptoMac.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42636B071DD166DB00DA1F50"
-            BuildableName = "CocoaCryptoMacFmwk.framework"
-            BlueprintName = "CocoaCryptoMacFmwk"
+            BlueprintIdentifier = "42636BC31DD16BA600DA1F50"
+            BuildableName = "CocoaCryptoMac.framework"
+            BlueprintName = "CocoaCryptoMac"
             ReferencedContainer = "container:CocoaCryptoMac.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

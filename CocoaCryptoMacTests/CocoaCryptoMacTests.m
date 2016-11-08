@@ -1,6 +1,6 @@
 //
-//  CocoaCryptoMacFmwkTests.m
-//  CocoaCryptoMacFmwkTests
+//  CocoaCryptoMacTests.m
+//  CocoaCryptoMacTests
 //
 //  Created by zouxu on 8/11/16.
 //  Copyright © 2016 Nik Youdale. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface CocoaCryptoMacFmwkTests : XCTestCase
+@interface CocoaCryptoMacTests : XCTestCase
 
 @end
 
-@implementation CocoaCryptoMacFmwkTests
+@implementation CocoaCryptoMacTests
 
 - (void)setUp {
     [super setUp];
